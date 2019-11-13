@@ -21,3 +21,23 @@
 否
 否
 否
+
+进入指定目录git init
+git add readme.txt
+git commit -m "wrote a readme file"
+
+
+配置用户信息
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+
+查看系统config
+git config --system --list
+
+查看当前用户（global）配置
+git config --global  --list
+
+查看当前仓库配置信息
+git config --local  --list
+

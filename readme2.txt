@@ -45,5 +45,3 @@ git config --local  --list
 
 1111
 
-2222
-
